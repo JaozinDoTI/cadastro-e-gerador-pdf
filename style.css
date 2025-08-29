@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Botão de abrir formulário */
+.btn-cadastrar {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-cadastrar:hover {
+  background-color: #0056b3;
+}
+
+/* Formulário escondido por padrão */
+.form-cadastro {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.form-cadastro input {
+  width: 95%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-cadastro button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-cadastro button:hover {
+  background-color: darkgreen;
+}
+
+/* Área de dados salvos */
+#dadosSalvos {
+  margin-top: 30px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#dadosSalvos div {
+  background-color: white;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
